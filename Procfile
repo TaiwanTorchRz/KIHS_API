@@ -1,0 +1,1 @@
+web: gunicorn API.API:app web=1 –log-file --preload -b 0.0.0.0:80
